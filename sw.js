@@ -1,6 +1,6 @@
 // DataForge PWA 빌더 — 서비스 워커
 // 재배포할 때는 CACHE 버전을 올려주세요 (예: -v1 → -v2)
-const CACHE = 'voice-v1';
+const CACHE = '내앱-v1';
 const PRECACHE = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', (e) => {

@@ -1,6 +1,6 @@
 {
-  "name": "voice app",
-  "short_name": "voice",
+  "name": "나의 웹 앱",
+  "short_name": "내앱",
   "lang": "ko",
   "start_url": "./",
   "scope": "./",

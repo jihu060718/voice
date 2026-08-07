@@ -2,15 +2,16 @@ PWA 패키지 — DataForge PWA 빌더 (https://dataforge.ai.kr/vibe/pwa)
 ================================================================
 
 [포함 파일]
+  index.html  PWA 코드가 이미 적용된 페이지
   manifest.json   앱 정보 (이름·색상·아이콘)
   sw.js           서비스 워커 (오프라인·캐시)
   icons/          앱 아이콘 세트
-  snippet.html    index.html <head>에 붙여넣을 코드
+  snippet.html    index.html <head>에 붙여넣을 코드 (참고용 — 이미 적용됨)
 
 [적용 방법]
-  1. manifest.json, sw.js, icons 폴더를 index.html과 같은 폴더에 복사
-  2. snippet.html 내용을 index.html의 </head> 바로 앞에 붙여넣기
-  3. GitHub Pages / Vercel에 배포(push)
+  1. ZIP 안의 모든 파일(index.html 포함)을 사이트 루트에 업로드
+     ※ <head> 스니펫은 index.html에 이미 삽입되어 있습니다
+  2. GitHub Pages / Vercel에 배포(push)
 
 [고해상도 화면 보정]
   - pdf.js를 쓰는 페이지라면 스마트폰(레티나 화면)에서 흐리게 보이는 문제를
